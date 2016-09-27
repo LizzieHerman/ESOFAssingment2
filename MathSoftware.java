@@ -9,6 +9,7 @@ public abstract class MathSoftware {
     
     public void setSortStrategy(ISortStrategy a){
         ss = a;
+        System.out.println("changed sort startegy");
     }
     
     public int[] performSort(int[] integers){
