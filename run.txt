@@ -1,0 +1,24 @@
+run:
+Input number of integers to be sorted: 10
+Input next integer to be sorted: 5
+Input next integer to be sorted: 7
+Input next integer to be sorted: 9
+Input next integer to be sorted: 3
+Input next integer to be sorted: 8
+Input next integer to be sorted: 2
+Input next integer to be sorted: 6
+Input next integer to be sorted: 4
+Input next integer to be sorted: 1
+Input next integer to be sorted: 0
+Input integer of software you would like to use.
+Mathematica = 0, Mtool = 1, MyMath = 2
+1
+Set default Sort Strategy to merge sort
+Sorted Integers:
+0 1 2 3 4 5 6 7 8 9 
+Input integer of sorting algorithm you would like to use.
+Insertion Sort = 0, Merge Sort = 1, Buble Sort = 2
+2
+changed sort startegy
+0 1 2 3 4 5 6 7 8 9 
+BUILD SUCCESSFUL (total time: 26 seconds)
