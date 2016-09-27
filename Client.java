@@ -20,7 +20,7 @@ public class Client {
         }
         System.out.println("Input integer of software you would like to use.\nMathematica = 0, Mtool = 1, MyMath = 2");
         int program = scanner.nextInt();
-        MathSoftware software = new MTool();
+        MathSoftware software;
         switch(program){
             case 0:
                 software = new Mathematica();
@@ -31,13 +31,16 @@ public class Client {
             case 2:
                 software = new MyMath();
                 break;
+            default:
+                software = new MTool();
+                break;
         }
         software.performSort(integers);
         System.out.println("Sorted Integers:");
         for(int i = 0; i < input; i++){
             System.out.print(integers[i] + " ");
         }
-        System.out.println("Input integer of sorting algorithm you would like to use.\nInsertion Sort = 0, Merge Sort = 1, Buble Sort = 2");
+        System.out.println("\nInput integer of sorting algorithm you would like to use.\nInsertion Sort = 0, Merge Sort = 1, Buble Sort = 2");
         int algorithm = scanner.nextInt();
         switch(algorithm){
             case 0:
@@ -55,5 +58,6 @@ public class Client {
             System.out.print(second[i] + " ");
         }
         
+        System.out.println();
     }
 }
