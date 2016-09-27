@@ -8,5 +8,6 @@ public class Mathematica extends MathSoftware{
     
     public Mathematica(){
         ss = new InsertionSort();
+        System.out.println("Set default Sort Strategy to insertion sort");
     }
 }
